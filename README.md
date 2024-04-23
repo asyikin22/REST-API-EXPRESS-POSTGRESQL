@@ -156,6 +156,7 @@
 *	Create update router in the route file
 *	Create update student function in the controller file
 *	Add update student function inside query file
+*	NOTE: It should be student with ID=3, not ID=2. my bad.
 
 ![image](https://github.com/asyikin22/REST-API-EXPRESS-POSTGRESQL/assets/148519441/d29e5a20-9d14-4a1b-ba1d-75f6ac0b7af4)
 
