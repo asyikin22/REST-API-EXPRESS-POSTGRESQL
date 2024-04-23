@@ -119,6 +119,50 @@
 * Inside router file, create a new route
 * Inside controller file, create that route
 
+**ISSUES**
+* Error
+* On controller file: router.get(':/id', controller.getStudentById);
+* It should be '/:id'. I am a freaking idiot lol
+
+![image](https://github.com/asyikin22/REST-API-EXPRESS-POSTGRESQL/assets/148519441/4d1a3bec-6312-46b3-b973-bc66d388dd84)
+
+# ADD STUDENT
+* Create a route to add new student in router file
+* Create request body and use JavaScript destructuring to get new details out of the body - inside the controller file
+* We have to check if we already have the student in the database and if it's valid.
+* Write query in query files
+
+![image](https://github.com/asyikin22/REST-API-EXPRESS-POSTGRESQL/assets/148519441/1b7cfe42-7b4f-4c7d-8fbe-8f10752bc901)
+
+**ADD STUDENT - AFTER WE HAVE VERIFIED ITS EXISTENCE**
+
+![image](https://github.com/asyikin22/REST-API-EXPRESS-POSTGRESQL/assets/148519441/9b003b7a-b419-420c-ab0b-ca333cccfe0f)
+
+**To confirm that we have added the new student (Anna), we can check:**
+1) Postman: get request for all students
+2) PSQL: SELECT * FROM students;
+
+![image](https://github.com/asyikin22/REST-API-EXPRESS-POSTGRESQL/assets/148519441/ed49a0b9-d9f7-4ee7-a00b-b0205efd5be0)
+
+
+# DELETE STUDENT
+* Create delete route in route file
+* Create remove student function inside controller file - Check if the student exists in DB
+* Add remove student function inside query file
+
+![image](https://github.com/asyikin22/REST-API-EXPRESS-POSTGRESQL/assets/148519441/8553ed90-ac4c-4d09-9f63-0444b189d4da)
+
+# UPDATE STUDENT
+*	Create update router in the route file
+*	Create update student function in the controller file
+*	Add update student function inside query file
+
+![image](https://github.com/asyikin22/REST-API-EXPRESS-POSTGRESQL/assets/148519441/d29e5a20-9d14-4a1b-ba1d-75f6ac0b7af4)
+
+
+
+
+
 
 
 
